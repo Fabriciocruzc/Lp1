@@ -1,4 +1,5 @@
-#include <string>
+#include "Cliente.hpp"
+#include "Agencia.hpp"
 
 using namespace std;
 
@@ -6,8 +7,9 @@ class Conta{
 	
 	public:
 	int numero;
-	string nomeTitular;
+	Cliente titular;
 	double saldo;
+	Agencia agencia;
 
 	void saca(double valor);
 	void deposita(double valor);
