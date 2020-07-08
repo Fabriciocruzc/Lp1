@@ -6,7 +6,9 @@ class Agencia{
 	
 	public:
 	string nome;
-	string cnpj;
 	int numero;
+
+	Agencia();
+	~Agencia();
 
 };

@@ -10,6 +10,11 @@ class Conta{
 	Cliente titular;
 	double saldo;
 	Agencia agencia;
+	static int quantidadeConta;
+
+	Conta(Cliente &titular, Agencia& agencia);
+	Conta();
+	~Conta();
 
 	void saca(double valor);
 	void deposita(double valor);
