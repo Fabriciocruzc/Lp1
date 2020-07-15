@@ -14,3 +14,23 @@ Cliente::Cliente(){
 
 Cliente::~Cliente(){
 }
+
+void Cliente::setNome(string nome){
+	this->nome = nome;
+}
+
+string Cliente::getNome(){
+	return this->nome;
+}
+
+void Cliente::setCpf(string cpf){
+	this->cpf = cpf;
+}
+
+string Cliente::getCpf(){
+	return this->cpf;
+}
+
+int Cliente::getQuantidadeCliente(){
+	return this->quantidadeCliente;
+}
