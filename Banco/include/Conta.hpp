@@ -1,6 +1,9 @@
-#include "Cliente.hpp"
+#ifndef CONTA
+#define CONTA
 #include "Agencia.hpp"
-#include "../include/ClientePJ.hpp"
+#include "ClientePJ.hpp"
+#include "ClientePF.hpp"
+
 
 using namespace std;
 
@@ -36,3 +39,5 @@ class Conta{
 	void transfere(double valor, Conta &c);
 	
 };
+
+#endif

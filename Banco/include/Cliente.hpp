@@ -1,23 +1,20 @@
+#ifndef CLIENTE
+#define CLIENTE
 #include <string>
-
 using namespace std;
 
 class Cliente{
 	
-	private:
+	protected:
 	string nome;
-	string cpf;
-	static int quantidadeCliente;
+	int idade;;
 
 	public:
-	Cliente(string nome, string cpf);
-	Cliente();
-	~Cliente();
-
 	void setNome(string nome);
 	string getNome();
-	void setCpf(string cpf);
-	string getCpf();
-	int getQuantidadeCliente();
+	void setIdade(int idade);
+	int getIdade();
 
 };
+
+#endif

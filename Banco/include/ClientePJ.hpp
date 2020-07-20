@@ -1,8 +1,12 @@
 #include <string>
 
+#ifndef CLINETEPJ
+#define CLINETEPJ
+#include "Cliente.hpp"
+
 using namespace std;
 
-class ClientePJ{
+class ClientePJ : public Cliente{
 	private:
 		string razaoSocial;
 		string cnpj;
@@ -17,3 +21,5 @@ class ClientePJ{
 		string getCnpj();
 	
 };
+
+#endif

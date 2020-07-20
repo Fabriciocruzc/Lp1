@@ -8,6 +8,7 @@ ClientePJ::~ClientePJ(){
 	
 }
 
+
 void ClientePJ::setRazaoSocial(string razaoSocial){
 	this->razaoSocial = razaoSocial;
 }
